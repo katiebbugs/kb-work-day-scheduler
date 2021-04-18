@@ -41,3 +41,4 @@ Edits Made:
         CREATED function to check and compare the time block time with the current time, so it will change CSS class/color based on the time (past-gray, present-red, future-green)
 
 Image of completed site:
+![work-day-scheduler](https://user-images.githubusercontent.com/79028196/115156545-f5ace800-a041-11eb-8d19-156252cc3039.png)
