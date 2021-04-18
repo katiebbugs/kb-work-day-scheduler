@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style sheets begin -->
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        />
+        <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous"
+        />
+        <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- style sheets end -->
+
+    <!-- title -->
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <!-- header begins -->
+        <header class="jumbotron">
+        <h1 class="display-3">Work Day Scheduler</h1>
+        <p class="lead">A simple calendar app for scheduling your work day</p>
+        <p id="currentDay" class="lead"></p>
+        </header>
+    <!-- header ends -->
+
+    <!-- time blocks begin -->
+        <main class="container">
+        <!-- 9 AM -->
+            <form class="row time-block" id="hour9">
+              <!-- time -->
+              <time class="col-md-1 hour" datetime="09:00">
+                9AM
+              </time>
+              <!-- description -->
+              <textarea class="col-md-10 description"></textarea>
+              <!-- save button -->
+              <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+            </form>
+        <!-- 10 AM -->
+          <form class="row time-block" id="hour10">
+            <!-- time -->
+            <time class="col-md-1 hour" datetime="10:00">
+              10AM
+            </time>
+            <!-- description -->
+            <textarea class="col-md-10 description"></textarea>
+            <!-- save button -->
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+          </form>
+        <!-- 11 AM -->
+          <form class="row time-block" id="hour11">
+            <!-- time -->
+            <time class="col-md-1 hour" datetime="11:00">
+              11AM
+            </time>
+            <!-- description -->
+            <textarea class="col-md-10 description"></textarea>
+            <!-- save button -->
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+          </form>
+        <!-- 12 PM -->
+          <form class="row time-block" id="hour12">
+            <!-- time -->
+            <time class="col-md-1 hour" datetime="12:00">
+              12PM
+            </time>
+            <!-- description -->
+            <textarea class="col-md-10 description"></textarea>
+            <!-- save button -->
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+          </form>
+        <!-- 1 PM -->
+          <form class="row time-block" id="hour13">
+            <!-- time -->
+            <time class="col-md-1 hour" datetime="13:00">
+              1PM
+            </time>
+            <!-- description -->
+            <textarea class="col-md-10 description"></textarea>
+            <!-- save button -->
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+          </form>
+        <!-- 2 PM -->
+          <form class="row time-block" id="hour14">
+            <!-- time -->
+            <time class="col-md-1 hour" datetime="14:00">
+              2PM
+            </time>
+            <!-- description -->
+            <textarea class="col-md-10 description"></textarea>
+            <!-- save button -->
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+          </form>
+        <!-- 3 PM -->
+          <form class="row time-block" id="hour15">
+            <!-- time -->
+            <time class="col-md-1 hour" datetime="15:00">
+              3PM
+            </time>
+            <!-- description -->
+            <textarea class="col-md-10 description"></textarea>
+            <!-- save button -->
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+          </form>
+        <!-- 4 PM -->
+          <form class="row time-block" id="hour16">
+            <!-- time -->
+            <time class="col-md-1 hour" datetime="16:00">
+              4PM
+            </time>
+            <!-- description -->
+            <textarea class="col-md-10 description"></textarea>
+            <!-- save button -->
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+          </form>
+        <!-- 5 PM -->
+          <form class="row time-block" id="hour17">
+            <!-- time -->
+            <time class="col-md-1 hour" datetime="17:00">
+              5PM
+            </time>
+            <!-- description -->
+            <textarea class="col-md-10 description"></textarea>
+            <!-- save button -->
+            <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+          </form>
+        </main>
+    <!-- time blocks end-->
+
+    <!-- scripts begin -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.26.0/luxon.min.js" integrity="sha512-cYjGoxnM2sxryDRpKhwi8uTszEw2zufuDVz1dWlm1+wlvwnhQ4wu00BokHH4IKlogGJNL+2a2GYvHN+xaoUxjQ==" crossorigin="anonymous"></script>
+      <script src="assets/js/script.js"></script>
+    <!-- scripts end-->
+  </body>
+</html>
