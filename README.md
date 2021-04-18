@@ -3,7 +3,7 @@
 
 https://github.com/katiebbugs/kb-work-day-scheduler
 
-
+https://katiebbugs.github.io/kb-work-day-scheduler/
 
 On-the-Job Ticket:
 
